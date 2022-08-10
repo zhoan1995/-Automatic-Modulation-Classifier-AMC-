@@ -1,1 +1,3 @@
 # -Automatic-Modulation-Classifier-AMC-
+
+This project aims to simulate a system with an Automatic Modulation Classifier(AMC) that works at different SNRs. The considered approach can classify the transmitted data from a source where symbols are drawn from 16-QAM and 64-QAM constellations with entropies 2 [2; 6] and 2 [2; 4], respectively, based on an informationtheoretic approach. Since the modulations are in a structure with different entropies, the probabilistic shaping is used to implement the constellations.Maxwell-Boltzmann distribution have been used for probabilistic shaping implementation.We used the AWGN channel. Our system maximum accuracy for classifying constellation reached 80.9 % accuracy and for sequence of symbols with length equals to 8192.
